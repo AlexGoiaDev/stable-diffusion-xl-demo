@@ -14,7 +14,7 @@ from share_btn import community_icon_html, loading_icon_html, share_js
 # SDXL code: https://github.com/huggingface/diffusers/pull/3859
 
 model_dir = os.getenv("SDXL_MODEL_DIR")
-access_token = os.getenv("ACCESS_TOKEN")
+access_token = "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"
 
 if model_dir:
     # Use local model
